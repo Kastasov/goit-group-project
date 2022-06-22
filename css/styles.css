@@ -1,12 +1,114 @@
+:root {
+    --main-text-color: #333333;
+    --secondary-text-color: #ffffff;
+    --hero-text-color: #E9E9E9;
+    --primary-axcent-color: #28A745;
+    --secondary-axcent-color: #0284D0;
+}
+
+/* normalize */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+/* main styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    color: var(--main-text-color);
+    background-color: #E5E5E5;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 1.26;
+    text-align: center;
+}
+
+.text-primary {
+    font-size: 20px;
+    line-height: 1.65;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1360px;
+}
+
 .visually-hidden {
-        position: absolute;
-            width: 1px;
-            height: 1px;
-            margin: -1px;
-            border: 0;
-            padding: 0;
-            white-space: nowrap;
-            clip-path: inset(100%);
-            clip: rect(0 0 0 0);
-            overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+/* another styles */
+
+/* header */
+
+/* section #1  */
+
+
+/* section #2  */
+
+
+/* section #3  */
+
+
+/* section #4  */
+
+
+/* section #5  */
+
+
+/* section #6  */
+
+
+/* section #7  */
+.callback .container {
+    display: block;
+}
+
+.callback img {
+    display: inline;
+}
+
+.callback-form {
+    display: inline;
+    width: 620px;
+    height: 300px;
+}
+
+/* footer */
+.footer {
+    background-color: var(--main-text-color);
+    color: var(--secondary-text-color);
+    text-align: center;
+}
+
+.address-list li {
+    display: inline-block;
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+
+.address-list {
+    padding-top: 20px;
+}
+
+.footer-text {
+    padding-bottom: 16px;
 }

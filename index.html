@@ -13,6 +13,16 @@
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -205,38 +215,49 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Callback</h2>
-      <img src="./images/working_man.jpg" alt="man working on laptop" width="680" height="460" />
-      <div>form</div>
-    </section>
+          <section class="callback">
+        <div class="container">
+          <h2 class="visually-hidden">Callback</h2>
+          <img
+            src="./images/working_man.jpg"
+            alt="man working on laptop"
+            width="680"
+            height="460"
+          />
+          <div class="callback-form">form</div>
+        </div>
+      </section>
+    </main>
 
     <footer>
-      <address>
-        <ul style="background-color: aqua">
-          <li>
-            <a href="https://www.facebook.com/"
-              ><img src="./images/fb-logo.svg" alt="facebook logo" />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/"
-              ><img src="./images/twitter-logo.svg" alt="twitter logo"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.youtube.com/"
-              ><img src="./images/youtube-logo.svg" alt="youtube logo"
-            /></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/"
-              ><img src="./images/instagram-logo.svg" alt="instagram logo"
-            /></a>
-          </li>
-        </ul>
-      </address>
-      <p>Copyright &copy; 2021 - FinanceLedger</p>
+      <div class="container footer">
+        <address>
+          <ul class=address-list>
+            <li>
+              <a href="https://www.facebook.com/"
+                ><img src="./images/fb-logo.svg" alt="facebook logo" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/"
+                ><img src="./images/twitter-logo.svg" alt="twitter logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/"
+                ><img src="./images/youtube-logo.svg" alt="youtube logo"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/"
+                ><img src="./images/instagram-logo.svg" alt="instagram logo"
+              /></a>
+            </li>
+          </ul>
+        </address>
+        <p class="footer-text">Copyright &copy; 2021 - FinanceLedger</p>
+      </div>
     </footer>
+
   </body>
 </html>
