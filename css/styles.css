@@ -22,14 +22,14 @@ body {
   background-color: #e5e5e5;
 }
 
-.title {
-  font-weight: 300;
-  font-size: 38px;
-  line-height: 1.26;
-  text-align: center;
-}
 
 .text-primary {
+  font-size: 20px;
+  line-height: 1.65;
+}
+.container{
+  margin: 0;
+  width: 1360;
   font-size: 20px;
   line-height: 1.65;
 }
@@ -50,20 +50,32 @@ body {
 /* another styles */
 
 /* header */
+
 .hiro {
   background-image: url(/images/Rectangle10.jpg);
   width: 1360px;
   height: 768px;
 }
-.nav-menu {
-  text-align: end;
+.container-nav{
+  display: flex;
+  align-items: center;
+}
+.nav-menu{
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: end; */
+}
+.icon {
+margin-right: 10px;
+display: flex;
 }
 .logo {
-  color: var(--color-accent);
+  color: var(--primary-axcent-color);
   font-size: 35px;
   line-height: 1.2;
+  text-decoration: none;
 }
-.logo :hover,
+.logo:hover,
 :focus {
   color: var(--primary-axcent-color);
 }
@@ -71,20 +83,25 @@ body {
   color: var(--hero-text-color);
   font-size: 35px;
   line-height: 1.2;
+  margin-right: 557px;
+  text-decoration: none;
 }
+
 .link {
   color: var(--secondary-text-color);
+  margin-right: 38px;
 }
 /* hiro */
-.container {
+
+.container-hiro {
   text-align: center;
 }
-.title {
+.title-hiro {
   color: var(--hero-text-color);
   font-weight: 300;
   font-size: 55px;
   line-height: 1.2;
-  margin-top: 0;
+  margin-top: 229px;
   margin-bottom: 25px;
 }
 .text-hiro {
@@ -105,9 +122,7 @@ body {
   border: 1px solid black;
   padding: 10px 30px;
 }
-.container {
-  text-align: center;
-}
+
 .hiro-button:hover,
 .hiro-button:focus {
   background-color: var(--primary-axcent-color);
