@@ -58,7 +58,7 @@ body {
 /* header */
 
 .hiro {
-  background-image: url(./images/Rectangle10.jpg);
+  background-image: url(../images/Rectangle10.jpg);
   width: 1360px;
   height: 768px;
 }
