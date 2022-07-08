@@ -71,13 +71,15 @@ body {
   width: 1360px;
 }
 
-/* another styles
-------------------
-------------------
-------------------
-------------------
-------------------
-*/
+/* another styles */
+/*------------------*/
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
 
 /* header */
 
@@ -166,8 +168,64 @@ body {
 /* section #2  */
 
 /* section #3  */
+.branches-flex {
+  display: flex;
+  padding: 40px 66px 19px 66px;
+  justify-content: space-between;
+}
+
+.bis-branch {
+  width: 362px;
+
+  text-align: center;
+}
+
+.branch-logo {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
 
 /* section #4  */
+.section-provide {
+  display: flex;
+}
+
+.team-pic {
+  width: 680px;
+}
+
+.team-pic > img {
+  max-width: 680px;
+  height: auto;
+  object-fit: cover;
+}
+
+.provide-article {
+  padding: 84px 44px 30px 30px;
+
+  background-color: var(--primary-axcent-color);
+  color: var(--secondary-text-color);
+}
+
+.provide-article p:nth-child(1) {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.provide-article h2 {
+  margin-bottom: 20px;
+}
+
+.provide-read-more {
+  display: block;
+  padding-top: 10px;
+  text-align: center;
+  width: 167px;
+  height: 50px;
+  border: 1px solid var(--secondary-text-color);
+  border-radius: 5px;
+}
 
 /* section #5  */
 
