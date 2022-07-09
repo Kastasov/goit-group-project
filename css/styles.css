@@ -84,7 +84,7 @@ h2 {
 /* header */
 
 .hiro {
-  background-image: url(./images/Rectangle10.jpg);
+  background-image: url(../images/main.jpg);
   width: 1360px;
   height: 768px;
 }
@@ -165,6 +165,10 @@ h2 {
   background-color: var(--hero-text-color);
 }
 
+.button-img {
+  display: inline-block;
+}
+
 /* section #2  */
 
 /* section #3  */
@@ -227,7 +231,83 @@ h2 {
   border-radius: 5px;
 }
 
-/* section #5  */
+/* section #4 Blog */
+
+.blog-flex {
+  display: flex;
+}
+
+.blog-wrap {
+  padding-top: 112px;
+  padding-left: 30px;
+  padding-right: 44px;
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-axcent-color);
+}
+
+.blog-date {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.65;
+}
+
+.blog-title {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1.26;
+  margin-top: 5px;
+  margin-bottom: 26px;
+}
+
+.blog-text {
+  margin-bottom: 28px;
+}
+
+.blog-link {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 11px 31px 10px 42px;
+}
+
+/* section #5 Cases */
+
+.cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.cases-text {
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 0;
+}
+
+.cases-title {
+  font-size: 38px;
+  font-weight: 300;
+  line-height: 1.26;
+  margin-top: 15px;
+  margin-bottom: 34px;
+}
+
+.cases-text-secondary {
+  margin-bottom: 39px;
+}
+
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.case-item:not(:nth-child(4n)) {
+  margin-right: 8px;
+}
+
+.case-item:not(:nth-last-child(-n + 4)) {
+  margin-bottom: 7px;
+}
 
 /* section #6  */
 
