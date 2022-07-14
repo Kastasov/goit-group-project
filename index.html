@@ -37,10 +37,10 @@
 
           <ul class="nav-menu">
             <li class="item"><a href="./index.html" class="header-menu-link">Home</a></li>
-            <li class="item"><a href="#" class="header-menu-link">About</a></li>
-            <li class="item"><a href="#" class="header-menu-link">Cases</a></li>
-            <li class="item"><a href="#" class="header-menu-link">Blog</a></li>
-            <li class="item"><a href="#" class="header-menu-link">Contact</a></li>
+            <li class="item"><a href="#about" class="header-menu-link">About</a></li>
+            <li class="item"><a href="#cases" class="header-menu-link">Cases</a></li>
+            <li class="item"><a href="#blog" class="header-menu-link">Blog</a></li>
+            <li class="item"><a href="#contact" class="header-menu-link">Contact</a></li>
           </ul>
         </nav>
 
@@ -95,7 +95,7 @@
         </div>
       </section>
       <!-- 4 -->
-      <section>
+      <section id="about">
         <div class="container">
           <div class="section-provide">
             <div class="team-pic">
@@ -116,7 +116,7 @@
         </div>
       </section>
 
-      <section class="cases">
+      <section class="cases" id="cases">
         <div class="container">
           <p class="cases-text">This is what we do</p>
           <h2 class="cases-title">Business Cases</h2>
@@ -188,7 +188,7 @@
         </div>
       </section>
 
-      <section class="blog">
+      <section class="blog" id="blog">
         <div class="container blog-flex">
           <div class="blog-wrap">
             <time class="blog-date" datetime="2020-04-16">April 16 2020</time>
@@ -345,7 +345,7 @@
         </div>
       </section>
 
-      <section class="callback">
+      <section class="callback" id="contact">
         <div class="container callback-flex">
           <h2 class="visually-hidden">Callback</h2>
           <img
@@ -354,11 +354,33 @@
             width="680"
             height="460"
           />
-          <div class="callback-form">
+          <div class="callback-form-section">
             <p class="form-text">Request Callback</p>
-            <input type="text" class="input-text form-item" />
-            <input type="email" class="input-text form-item" />
-            <input type="submit" class="input-button form-item" />
+            <form class="callback-form">
+              <div class="input-text-container">
+                <input
+                  type="text"
+                  class="input-text"
+                  name="name"
+                  placeholder="Enter your name"
+                  id="name"
+                />
+                <label class="input-text-label" for="name">name</label>
+              </div>
+
+              <div class="input-text-container">
+                <input
+                  type="email"
+                  class="input-text"
+                  name="email"
+                  placeholder="Enter email*"
+                  id="email"
+                />
+                <label class="input-text-label" for="email">email</label>
+              </div>
+
+              <button class="input-button" type="submit">Send</button>
+            </form>
           </div>
         </div>
       </section>
